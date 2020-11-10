@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name" : "Old Time inginious",
+    "version": "1.0",
+    "description": "Inginious like old times",
+    "content_scripts": [
+        {
+            "matches": ["*://inginious.info.ucl.ac.be/*"],
+            "js": ["main.js"]
+        }
+    ],
+    "icons":{
+        "48": "icon.png"
+    }
+}
